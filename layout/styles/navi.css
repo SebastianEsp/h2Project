@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 /*
 Template Name: PhotoFolio
 Author: <a href="http://www.os-templates.com/">OS Templates</a>
@@ -11,6 +11,7 @@ File: Navigation CSS
 #topbar ul{display:block; float:left; font-size:12px; font-family:Georgia, "Times New Roman", Times, serif; text-transform:uppercase;}
 #topbar ul, #topbar ul li{margin:0; padding:0; list-style:none;}
 #topbar ul#topnav{margin:12px 0 0 15px;}
+#topbar ul#topnav.right{float:right;}
 #topbar ul li{float:left; margin-right:30px;}
 #topbar ul li li{margin-left:0;}
 #topbar ul li a:link, #topbar ul li a:visited, #topbar ul li a:hover{display:block; margin:0; padding:0; color:#FFFFFF; background-color:transparent;}
