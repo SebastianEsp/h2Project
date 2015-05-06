@@ -1,16 +1,37 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="ContentMaster.master.cs" Inherits="ContentMaster" %>
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="ContentMaster.master.cs" Inherits="ContentMaster" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>       
+    <title>PhotoFolio</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+<script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
+<!-- tabs -->
+<script type="text/javascript" src="layout/scripts/jquery.ui.min.js"></script>
+
+<!-- / tabs -->
+<script type="text/javascript" src="layout/scripts/jquery-photostack.js"></script>
+<!-- coinslider -->
+<script type="text/javascript" src="layout/scripts/jquery-coin-slider.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('#portfolioslider').coinslider({
+        width: 480,
+        height: 280,
+        navigation: false,
+        links: false,
+        hoverPause: true
+    });
+});
+</script>
+<!-- / coinslider -->     
 </head>
-<body>
-    <header id="header"></header>
+<body>    
     <form id="form1" runat="server">
     <div>
-        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        <asp:ContentPlaceHolder id="ContentPlaceHolderDefault" runat="server">
         
         </asp:ContentPlaceHolder>
     </div>
