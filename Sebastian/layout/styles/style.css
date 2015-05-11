@@ -1,0 +1,94 @@
+
+/*.left {
+	float: left;
+}*/
+#left {
+  float: left;
+  width: 243px;
+}
+#logo {
+  width: 244px;
+  height: 58px;
+  background: url(images/header_1.jpg) no-repeat;
+  text-align: center;
+  color: #595959;
+}
+#logo h1 {
+  padding-top: 30px;
+  font: 24px "arial narrow", arial, sans-serif;
+}
+#logo p {
+  margin: 8px 25px 4px 25px;
+  border-top: 1px solid #B8B8B8;
+  border-bottom: 1px solid #B8B8B8;
+  padding: 3px;
+  letter-spacing: 0.2em;
+  font-weight: bold;
+}
+
+#nav {
+  background: url(images/nav_left.jpg) no-repeat;
+}
+#nav ul {
+  margin-left: 9px;
+  padding-left: 1px;
+  padding-bottom: 10px;
+  background: #2A2A2A bottom left url(images/nav_bot.jpg) no-repeat;
+}
+#nav li {
+  list-style: none;
+  font: 14px "arial narrow", arial, sans-serif;
+  border-top: 1px solid #959595;
+  background: 188px 10px url(images/arr_white.gif) no-repeat;
+  padding: 7px 0 0 31px;
+}
+#nav a {
+  color: #fff;
+  text-decoration: none;
+  border-left: 1px solid #959595;
+  padding-left: 10px;
+  display: block;
+  width: 90%;
+  padding: 2px 0 6px 8px;
+}
+#nav a:hover {
+  text-decoration: underline;
+}
+
+
+#Rediger {
+    float:left;
+    width:340px;
+    height:330px;
+    background: #2A2A2A;
+    margin-left: 50px;
+     text-align:center;
+    align-content:center;
+}
+
+#Rediger op {
+    width:auto;
+    height:auto;
+   
+}
+
+#Oplysinger {
+    
+    height: 330px; 
+    width:340px; 
+    margin-left: 661px;
+     margin-bottom: 15px; 
+     background:#2A2A2A;
+ 
+     text-align:center;
+    align-content:center;
+}
+
+    #Oplysinger op {
+       
+         
+          width:auto; 
+            height:auto;
+       
+    }
+
